@@ -53,6 +53,10 @@ outputs/
 results/
 logs/
 
+# Allow keeping a small placeholder file in data and models while ignoring the rest
+!data/.gitkeep
+!models/.gitkeep
+
 # Typical data files
 *.csv
 *.tsv
@@ -74,6 +78,10 @@ checkpoints/
 .env.*
 secrets/
 credentials.json
+.env.local
+.envrc
+.python-version
+.aws/
 
 # macOS
 .DS_Store
@@ -92,3 +100,7 @@ docs/_build/
 
 # Local config
 .local/
+
+# Terraform / infra
+.terraform/
+
