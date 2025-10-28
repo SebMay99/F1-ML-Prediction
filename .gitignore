@@ -1,0 +1,107 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+venv.bak/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data, datasets and results (do NOT commit large data or model weights)
+data/
+datasets/
+raw_data/
+processed_data/
+output/
+results/
+logs/
+models/
+
+# Allow keeping a small placeholder file in data and models while ignoring the rest
+!data/.gitkeep
+!models/.gitkeep
+
+# Typical data files
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.sqlite
+*.db
+
+# Model weights and checkpoints
+models/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# Environment and secrets
+.env
+.env.*
+secrets/
+credentials.json
+.env.local
+.envrc
+.python-version
+.aws/
+
+# macOS
+.DS_Store
+
+# Misc
+*.log
+*.pot
+*.mo
+
+# Python static analysis caches
+.mypy_cache/
+__pypackages__/
+
+# Sphinx documentation
+docs/_build/
+
+# Local config
+.local/
+
+# Terraform / infra
+.terraform/
+
