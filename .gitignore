@@ -49,9 +49,10 @@ data/
 datasets/
 raw_data/
 processed_data/
-outputs/
+output/
 results/
 logs/
+models/
 
 # Allow keeping a small placeholder file in data and models while ignoring the rest
 !data/.gitkeep
